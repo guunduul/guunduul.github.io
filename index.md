@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guunduul | Personal Website</title>
+  <title>Guunduul | Funny Personal Site</title>
+  <link rel="icon" type="image/png" href="kaget.png">
   <style>
     body {
       margin: 0;
@@ -17,6 +18,18 @@
       height: 100vh;
       flex-direction: column;
       text-align: center;
+    }
+
+    header {
+      background-color: #1d9bf0;
+      color: white;
+      padding: 10px 30px;
+      border-radius: 30px;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
     }
 
     .card {
@@ -52,6 +65,9 @@
       font-size: 15px;
       margin-bottom: 25px;
       color: #444;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+      font-style: italic;
     }
 
     a {
@@ -77,14 +93,15 @@
   </style>
 </head>
 <body>
+  <header>GUNDUL</header>
+
   <div class="card">
     <img src="kaget.png" alt="Profile Picture">
     <h1>Guunduul</h1>
-    <p><em>"Humans' duty is only to fight, not to force the results, rest assured that if God has played a part, then nothing is impossible."</em></p>
+    <p>"Humans' duty is only to fight, not to force the results, rest assured that if God has played a part, then nothing is impossible."</p>
     <a href="https://x.com/guunduul" target="_blank">Follow on X</a>
   </div>
 
   <footer>© 2025 Guunduul</footer>
 </body>
 </html>
-
